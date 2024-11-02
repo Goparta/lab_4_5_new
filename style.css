@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px 0;
+    background-color: #ddd;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .nav > li > a {
+    color: black;
+}
+
+.navbar-toggle {
+    border-color: #ddd;
+}
+
+.content {
+    background-color: #f0f0f0; /* Сірий фон */
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    display: flex; /* Включення Flexbox для контейнера */
+    flex-direction: column; /* Розміщення дочірніх елементів у вертикальному напрямку */
+    align-items: center; /* Відцентровування дочірніх елементів по горизонталі */
+    justify-content: center; /* Відцентровування дочірніх елементів по вертикалі */
+}
+
+.header {
+    color: #333; /* Темний колір тексту для заголовка */
+    margin-bottom: 10px; /* Додавання відступу між заголовком та текстом */
+}
+
+.content p {
+    color: #666; /* Світліший колір тексту для параграфу */
+    text-align: justify; /* Вирівнювання тексту за шириною */
+    width: 80%; /* Обмеження ширини тексту для кращого читання */
+}
+
+
+/* Налаштування для мобільної версії, коли випадаюче меню відкрите */
+@media (max-width: 767px) {
+    .navbar-collapse {
+        background-color: #f8f8f8;
+    }
+}

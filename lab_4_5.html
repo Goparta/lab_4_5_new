@@ -1,0 +1,52 @@
+<!DOCTYPE html> <!-- Визначає тип документа HTML5 -->
+<html lang="uk"> <!-- Вказує, що мова документа - українська -->
+<head>
+    <meta charset="UTF-8"> <!-- Встановлює кодування символів на UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Налаштування для адаптивного дизайну -->
+    <title>Food, LLC</title> <!-- Заголовок, який з'являється на вкладці браузера -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> <!-- Підключення CSS-фреймворку Bootstrap -->
+    <link href="style.css" rel="stylesheet"> <!-- Підключення власного стилю -->
+</head>
+<body>
+    <nav class="navbar navbar-default"> <!-- Створення навігаційної панелі з класом Bootstrap -->
+        <div class="container"> <!-- Контейнер для обмеження ширини навігації -->
+            <div class="navbar-header"> <!-- Заголовок навігаційної панелі -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu"> <!-- Кнопка для мобільного перегляду -->
+                    <span class="sr-only">Toggle navigation</span> <!-- Текст для екранних читалок -->
+                    <span class="icon-bar"></span> <!-- Кнопки меню -->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Food, LLC</a> <!-- Бренд навігації -->
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-menu"> <!-- Вміст меню, яке згортається на мобільних пристроях -->
+                <ul class="nav navbar-nav"> <!-- Список навігаційних елементів -->
+                    <li><a href="#">Курка</a></li> <!-- Посилання на розділ "Курка" -->
+                    <li><a href="#">Яловичина</a></li> <!-- Посилання на розділ "Яловичина" -->
+                    <li><a href="#">Суші</a></li> <!-- Посилання на розділ "Суші" -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="text-center"> <!-- Заголовок з текстом по центру -->
+        <h1>Наше меню</h1> <!-- Основний заголовок сторінки -->
+    </header>
+
+    <div class="content"> <!-- Контейнер для вмісту -->
+        <h2>Курка</h2> <!-- Заголовок другого рівня для секції "Курка" -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <!-- Опис продукту -->
+    </div>
+
+    <section class="container-fluid"> <!-- Розділ з фоновим кольором, який займає всю ширину -->
+        <div class="row"> <!-- Рядок для сітки -->
+            <div class="col-xs-12" style="height: 1000px; background-color: #f0f0f0;"> <!-- Стовпець, що займає всю ширину, з фоновим кольором -->
+                <!-- Вміст секції -->
+            </div>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> <!-- Підключення бібліотеки jQuery -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> <!-- Підключення JavaScript-фреймворку Bootstrap -->
+</body>
+</html>
